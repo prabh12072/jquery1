@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Assignment 2
+	</title>
+</head>
+<body>
+
+	<form name='demo_form'>
+	First name: <input type="text" name="fname"><br>
+	Last name: <input type="text" name="lname"><br>
+	<input type="submit" value="Submit"><br><br>
+	</form>
+
+	<button id="btn1"> Click to toggle Input Element </button>
+	
+
+</body>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript">
+		$("#btn1").click( function(){
+			$("input").toggle();
+		});
+		 
+	</script>
+</head>
+
+</html
